@@ -83,9 +83,9 @@ You can also train the model from scratch and you can add other functions, eg, m
 ```sh
 
 python src/run.py \
-		--task mort_hosp -T \
-		--note_encode_name ClinicalBERT \
-		--modality both \
+    --task mort_hosp -T \
+    --note_encode_name ClinicalBERT \
+    --modality both \
     --dropout 0.2 \
     --wd 0.0001 \
     --num_attention_heads 4 \
