@@ -50,7 +50,7 @@ bash encode_text.sh
 
 ## 2. Evaluating checkpoints 
 
-We provide the model checkpoints for the six tasks, trained under two data regimes that either exclude or include cases with missing input modality. Below are the example for in-hospital mortality prediction under two evaluation setups. The script will load the pytorch-lightning checkpoint that can be downloaded from [gdrive](https://drive.google.com/drive/folders/1aD9hyF7OFW7OXwg8jzj4GFdb127NTJo6?usp=share_link), and print out model hyperparameters and evaluation scores. Options for other tasks can be found in `src/options.py`. 
+We provide the model checkpoints for the six tasks, trained under two data regimes that either exclude or include cases with missing input modality. Below are the example for in-hospital mortality prediction under two evaluation setups. The script will load the pytorch-lightning checkpoint that can be downloaded from [gdrive](https://drive.google.com/drive/folders/1-0WQy04lwVOlqtrcEVLvLfOsByIOfdgL?usp=sharing), and print out model hyperparameters and evaluation scores. Options for other tasks can be found in `src/options.py`. 
 
 ```sh
 # cohort w/o missing modality
